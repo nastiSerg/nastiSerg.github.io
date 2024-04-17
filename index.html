@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moments</title>
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="header">
+            <div class="lefthead">
+                <a href="./index.html">Главная</a>
+                <a href="./programs.html">Программы</a>
+            </div>
+            <div class="centerhead"><img src="./photo/logo.png" alt="" width="150" height="150"></div>
+            <div class="righthead">
+                <a href="./portfolio.html">Портфолио</a>
+                <a href="./contacts.html">Контакты</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="slider">
+                <img src="./photo/headbandimage.jpg" alt="" class="slide">
+                <img src="./photo/headbandimage2.jpg" alt="" class="slide">
+                <img src="./photo/headbandimage3.jpg" alt="" class="slide">
+                <img src="./photo/headbandimage4.jpg" alt="" class="slide">
+                <img src="./photo/headbandimage5.jpg" alt="" class="slide">
+                <button id="scrollBtn" class="scrollBtn"><p>хочешь праздник?</p></button>
+            </div>
+            <div class="programs">
+                <div class="programsWords">
+                    <p>Мы организовываем мероприятия, любой сложности:</p>
+                    <p>Свадьба, День рождения, Детский праздник и многое другое!</p>
+                    <p>Просто оставь заявку!</p>
+                </div>
+                <div class="slider">
+                    <div class="slides">
+                        <img src="./photo/program1.jpg" alt="">
+                        <img src="./photo/program2.jpg" alt="">
+                        <img src="./photo/program3.jpg" alt="">
+                        <img src="./photo/program4.jpg" alt="">
+                        <img src="./photo/program5.jpg" alt="">
+                    </div>
+                    <button class="prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="next" onclick="nextSlide()">&#10095;</button>
+                </div>
+            </div>
+            <div class="portfolio">
+                <div class="portWord"><a href="./portfolio.html">Наше портфолио</a></p></div>
+                <div class="block1">
+                    <div class="block"><img src="./photo/portfolio1.jpg" alt="" class="scale"></div>
+                    <div class="block"><img src="./photo/portfolio2.jpg" alt="" class="scale"></div>
+                    <div class="block"><img src="./photo/portfolio3.jpg" alt="" class="scale"></div>
+                </div>
+                <div class="block2">
+                    <div class="block"><img src="./photo/portfolio4.jpg" alt="" class="scale"></div>
+                    <div class="block"><img src="./photo/portfolio5.jpg" alt="" class="scale"></div>
+                    <div class="block"><img src="./photo/portfolio6.jpg" alt="" class="scale"></div>
+                </div>
+                <div class="block3">
+                    <div class="block"><img src="./photo/portfolio7.jpg" alt="" class="scale"></div>
+                    <div class="block"><img src="./photo/portfolio8.jpg" alt="" class="scale"></div>
+                    <div class="block"><img src="./photo/portfolio9.jpg" alt="" class="scale"></div>   
+                </div>   
+            </div>
+            <div class="team">
+                <p><a href="./contacts.html">Наша команда!</a></p>
+            </div>
+            <div class="application">
+                <div class="appwords"><p>Заполни завку, и мы устроим тебе праздник мечты!</p></div>
+                <div class="centerapp">
+                    <form id="feedbackForm">
+                        <label for="name"><p>Имя:</p></label>
+                        <input type="text" id="name" name="name" required>
+                      
+                        <label for="email"><p>Email:</p></label>
+                        <input type="email" id="email" name="email" required>
+                      
+                        <label for="message"><p>Сообщение:</p></label>
+                        <textarea id="message" name="message" required></textarea>
+                      
+                        <p><button type="submit"><p>Отправить</p></button></p>
+                      </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="leftfoot">
+                <img src="./photo/map.jpg" alt="Изображение 240x240" width="240" height="240">     
+            </div>
+            <div class="rightfoot">
+                <img src="./photo/logo.png" alt="Изображение 230x230" width="230" height="230">
+                <b>@Moments все права защищены 2024</b>
+            </div>
+            <div class="centerfoot">
+                <p>Нас можно найти:</p>
+                <p>Vk: moments</p>
+                <p>Тг: moments</p>
+                <p>Email: moments@mail.ru</p>
+            </div> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

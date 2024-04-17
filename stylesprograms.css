@@ -1,0 +1,64 @@
+.programspage{
+    width: 75%;
+    margin: auto;
+}
+.nameProgram{
+    margin-left: 30%;
+    margin-top: 60px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 0, 225, 0.3);
+    border-radius: 30px;
+}
+.nameProgram p{
+    font-size: 70px;
+    font-family: 'Everlasting';   
+}
+.wedding, .birthday, .kid, .graduation, .genderparty, .korporativ{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 100%;
+    height: 700px;
+    border-radius: 30px;
+}
+.textwindow{
+    float: right;
+    width: 30%;
+    height: 100%;
+    border-radius: 0px 30px 30px 0px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+.textwindow p{
+    margin-top: 45px;
+    margin-left: 45px;
+    font-size: 40px;
+    font-family: 'Everlasting';
+    color: rgb(68, 0, 255);
+    text-shadow: 2px 2px 3px black, 0 0 2em red;
+}
+.wedding{
+    background-image: url(./photo/programswedding.jpg);
+    background-size: cover;
+}
+.birthday{
+    background-image: url(./photo/programsbirthday.jpg);
+    background-size: cover;
+}
+.kid{
+    background-image: url(./photo/programskid.jpg);
+    background-size: cover;
+}
+.graduation{
+    background-image: url(./photo/programsgraduation.jpg);
+    background-size: cover;
+}
+.genderparty{
+    background-image: url(./photo/programsgenderparty.jpg);
+    background-size: cover;
+}
+.korporativ{
+    background-image: url(./photo/programskorporativ.jpg);
+    background-size: cover;
+}
